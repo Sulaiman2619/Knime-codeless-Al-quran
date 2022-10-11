@@ -53,7 +53,7 @@
   * Node TF
   * Node IDF
 
-7.TF and IDE are multiplied together for more accurate results. by using
+7.TF and IDF are multiplied together for more accurate results. by using
   * Node Math Formula
 
 ![Imgur](https://i.imgur.com/1jjhGz1.png)
