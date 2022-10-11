@@ -8,7 +8,7 @@
 
 ![Imgur](https://i.imgur.com/OaxnTe3.png)
 
-(result)
+### Result
 
 ![Imgur](https://i.imgur.com/IFnzA5a.png)
 
@@ -19,7 +19,7 @@
 
 ![Imgur](https://i.imgur.com/qrTQIdZ.png)
 
-(result)
+### Result
 
 ![Imgur](https://i.imgur.com/au1hIJs.png)
 
@@ -31,7 +31,7 @@
 
 ![Imgur](https://i.imgur.com/n4Ttv5A.png)
 
-(result)
+### Result
 
 ![Imgur](https://i.imgur.com/DB5IQRk.png)
 
@@ -45,7 +45,7 @@
 
 ![Imgur](https://i.imgur.com/BvVU2bp.png)
 
-(result)
+### Result
 
 ![Imgur](https://i.imgur.com/w2Kli1f.png)
 
@@ -58,7 +58,7 @@
 
 ![Imgur](https://i.imgur.com/1jjhGz1.png)
 
-(result)
+### Result
 
 ![Imgur](https://i.imgur.com/tLNFAup.png)
 
@@ -67,7 +67,7 @@
   
 ![Imgur](https://i.imgur.com/YzGfM6r.png)
 
-(result)
+### Result
 
 ![Imgur](https://i.imgur.com/GfqcB2u.png)
 
@@ -83,6 +83,6 @@
   
  ![Imgur](https://i.imgur.com/fi50efX.png)
  
- (result)
+### Result
  
  ![Imgur](https://i.imgur.com/JBiO1Ja.png)
