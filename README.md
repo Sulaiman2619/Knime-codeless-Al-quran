@@ -87,5 +87,61 @@ By using:
 
 ![Imgur](https://i.imgur.com/IC1a60A.png)
 
+3.Mark which words are in what category. And using Stanford Tagger to mark the words again in case the words in the POS Tagger are missing or skipped, change the verb into all verb one.
+By using:
+* Node POS Tagger
+* Node Stanford Tagger
+* Node Standord Lemmatizer
 
-    
+#### Result
+
+![Imgur](https://i.imgur.com/d8H7904.png)
+
+4.Separate words into individual words. in order to be able to compare each wordใ
+By using:
+* Node Bag Of Words Creator
+
+#### Result
+
+![Imgur](https://i.imgur.com/RcqNrXE.png)
+
+5.Put all the separate words together in each column of words.
+By using:
+* Node Document Vector
+
+![Imgur](https://i.imgur.com/ef2Lssx.png)
+
+#### Result
+
+![Imgur](https://i.imgur.com/rPO4fcL.png)
+
+### Add Column And Sort Column By ID
+
+![Imgur](https://i.imgur.com/itNmuwK.png)
+
+#### Result
+
+![Imgur](https://i.imgur.com/EOqiNHD.png)
+
+
+### Similarity View
+
+![Imgur](https://i.imgur.com/1s60xGW.png)
+
+1.Determines the translator to compare the similarity use Column ID.
+By using:
+* Node Row Fillter
+
+![Imgur](https://i.imgur.com/nqRDRdp.png)
+
+2.Use Similarity Search to test similarity.
+By using:
+* Node Similarity Search
+
+![Imgur](https://i.imgur.com/nhyV6nh.png)
+
+#### Result
+
+![Imgur](https://i.imgur.com/u2MXjN5.png)
+
+
