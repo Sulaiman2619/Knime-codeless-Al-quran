@@ -18,7 +18,7 @@ By using:
 
 ![Imgur](https://i.imgur.com/3JLnuzC.png)
 
-1.Remove unused data.
+1. Remove unused data.
 By using:
 * Node Column Filter.
 
@@ -26,7 +26,7 @@ By using:
 
 ![Imgur](https://i.imgur.com/5lgYJy6.png)
 
-2.Convert data from column to row 
+2. Convert data from column to row 
 By using:
 * Node Transpose
 
@@ -34,7 +34,7 @@ By using:
 
 ![Imgur](https://i.imgur.com/miW0oaK.png)
 
-3.Combine each column of text into a single column. And removes unused columns. 
+3. Combine each column of text into a single column. And removes unused columns. 
 By using:
 * Node Column Combiner
 * Node Column Fillter
@@ -43,7 +43,7 @@ By using:
 
 ![Imgur](https://i.imgur.com/kkNLN2Y.png)
 
-4.Create a new column in the table and combine it with the original table. 
+4. Create a new column in the table and combine it with the original table. 
 By Using :
 * Node Table Creator
 * Node Column Appender
@@ -54,7 +54,7 @@ By Using :
 
 ![Imgur](https://i.imgur.com/6CKLher.png)
 
-5.Remove Dashes from Text
+5. Remove Dashes from Text
 By using:
 * Node String Manipulation
 
@@ -66,7 +66,7 @@ By using:
 
 ![Imgur](https://i.imgur.com/9LcQiax.png)
 
-1.Convert String to Document where Title will be Column tran_id and Text will be column surah. And then delete the columns that are not in use.
+1. Convert String to Document where Title will be Column tran_id and Text will be column surah. And then delete the columns that are not in use.
 By using:
 * Node Strings To Document
 * Node Column Fillter
@@ -77,7 +77,7 @@ By using:
 
 ![Imgur](https://i.imgur.com/a3ndYxi.png)
 
-2.Remove special words such as , : _ ^ etc., change all letters to lowercase, remove unnecessary words. Frequently encountered words such as the,to,and etc.
+2. Remove special words such as , : _ ^ etc., change all letters to lowercase, remove unnecessary words. Frequently encountered words such as the,to,and etc.
 By using:
 * Node Punctuation Erasure
 * Case Converter
@@ -87,7 +87,7 @@ By using:
 
 ![Imgur](https://i.imgur.com/IC1a60A.png)
 
-3.Mark which words are in what category. And using Stanford Tagger to mark the words again in case the words in the POS Tagger are missing or skipped, change the verb into all verb one.
+3. Mark which words are in what category. And using Stanford Tagger to mark the words again in case the words in the POS Tagger are missing or skipped, change the verb into all verb one.
 By using:
 * Node POS Tagger
 * Node Stanford Tagger
@@ -97,7 +97,7 @@ By using:
 
 ![Imgur](https://i.imgur.com/d8H7904.png)
 
-4.Separate words into individual words. in order to be able to compare each word.
+4. Separate words into individual words. in order to be able to compare each word.
 By using:
 * Node Bag Of Words Creator
 
@@ -105,7 +105,7 @@ By using:
 
 ![Imgur](https://i.imgur.com/RcqNrXE.png)
 
-5.Put all the separate words together in each column of words.
+5. Put all the separate words together in each column of words.
 By using:
 * Node Document Vector
 
@@ -119,7 +119,7 @@ By using:
 
 ![Imgur](https://i.imgur.com/ZkRK3nB.png)
 
-1.Model to find the frequency using TF and IDF and use math formula to multiply the results of TF,IDF
+1. Model to find the frequency using TF and IDF and use math formula to multiply the results of TF,IDF
 * Node TF
 * Node Column Rename
 * Node IDF
@@ -142,13 +142,13 @@ By using:
 
 ![Imgur](https://i.imgur.com/1s60xGW.png)
 
-1.Determines the translator to compare the similarity use Column ID.
+1. Determines the translator to compare the similarity use Column ID.
 By using:
 * Node Row Fillter
 
 ![Imgur](https://i.imgur.com/nqRDRdp.png)
 
-2.Use Similarity Search to test similarity.
+2. Use Similarity Search to test similarity.
 By using:
 * Node Similarity Search
 
