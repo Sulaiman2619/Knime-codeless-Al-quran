@@ -97,7 +97,7 @@ By using:
 
 ![Imgur](https://i.imgur.com/d8H7904.png)
 
-4.Separate words into individual words. in order to be able to compare each wordใ
+4.Separate words into individual words. in order to be able to compare each word.
 By using:
 * Node Bag Of Words Creator
 
