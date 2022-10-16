@@ -1,98 +1,57 @@
 # Knime-codeless-Al-quran-Test 
 ##  Overview
-  This project is about the Qur'an. To compare the translators with what percentage are the same by using Surat Al-Fatihah to compare. A total of 14 translators were used and Dr. Mustafa Khattab was used as a comparison. And it's the first project to try text mining using knime.
+  The project is a text mining project which uses Ayah Al-Qur'an Surah Al-Fatihah for text mining by taking the text that each translator translates to find the similarity. By using the process of text mining, in text mining we used the knime program in text mining which was the first project. which the benefits of this project It is able to do a search engine that will be able to search the meaning and find the meaning of other translators as well.
 
 ## Method
-1.Import Excel file into knime using.
-  * node Excel reader.
+### Access Data
+1. Extract data from Excel.
+By using:
+* Node Excel Reader
 
-![Imgur](https://i.imgur.com/ZE1tSAY.png)
+![Imgur](https://i.imgur.com/B5P3IWr.png)
 
-### Result
+#### Result
 
-![Imgur](https://i.imgur.com/IFnzA5a.png)
+![Imgur](https://i.imgur.com/Fg4r2Rp.png)
 
-2.Bring the ayah of the translator together in 1 row for 1 person, total 14 people. using 
-  * Node Row Fillter
-  * Node GroupBy
-  * Node Concatenate
+### Tranform Data
 
-![Imgur](https://i.imgur.com/qrTQIdZ.png)
+![Imgur](https://i.imgur.com/3JLnuzC.png)
 
-### Result
+1.Remove unused data.
+By using:
+* Node Column Filter.
 
-![Imgur](https://i.imgur.com/au1hIJs.png)
+#### Result
 
-3.Change data from String to Document using 
-  * Node Strings To Document.
+![Imgur](https://i.imgur.com/5lgYJy6.png)
 
-4.Select only the columns we want to use by using
-  * Node Column Fillter
+2.Convert data from column to row 
+By using:
+* Node Transpose
 
-![Imgur](https://i.imgur.com/n4Ttv5A.png)
+#### Result
 
-### Result
+![Imgur](https://i.imgur.com/miW0oaK.png)
 
-![Imgur](https://i.imgur.com/DB5IQRk.png)
+3.Combine each column of text into a single column. And removes unused columns. 
+By using:
+* Node Column Combiner
+* Node Column Fillter
 
-5.Text Processing, remove extra words, remove unnecessary words, change to lowercase letters to make the writing the same, change verb to box 1, cut numbers with words, split words into individual words. as shown below:
-  * Node Punctuation Erasure
-  * Node stop Word Fillter
-  * Node Case Converter
-  * Node Snowball Stemmer
-  * Node N Chars Fillter
-  * Node Bag Of Words
+#### Result
 
-![Imgur](https://i.imgur.com/7DTBK3Z.png)
+![Imgur](https://i.imgur.com/kkNLN2Y.png)
 
-### Result
+4.Create a new column in the table and combine it with the original table. 
+By Using :
+* Node Table Creator
+* Node Column Appender
 
-![Imgur](https://i.imgur.com/w2Kli1f.png)
+#### Result
 
-6.Model Use TF and IDE to find word frequencies. by using
-  * Node TF
-  * Node IDF
+![Imgur](https://i.imgur.com/6CKLher.png)
 
-7.TF and IDF are multiplied together for more accurate results. by using
-  * Node Math Formula
 
-![Imgur](https://i.imgur.com/VmgejFM.png)
 
-### Result
-
-![Imgur](https://i.imgur.com/tLNFAup.png)
-
-8.Combine the obtained values. by using
-  * Node Document Vector
-  
-![Imgur](https://i.imgur.com/YzGfM6r.png)
-
-### Result
-
-![Imgur](https://i.imgur.com/GfqcB2u.png)
-
-9.Select only the words that we want to use. and the people we will compare. by using
-  * Node Column Fillter
-  * Node Row Fillter
- 
- ![Imgur](https://i.imgur.com/afIPZ5g.png)
- 
- 
- 10.A selected and prepared comparator is taken to test for similarity. by using
-  * Node Similarity Search
-  
- ![Imgur](https://i.imgur.com/afIPZ5g.png)
- 
-### Result
- 
- ![Imgur](https://i.imgur.com/JBiO1Ja.png)
- 
- ## Complete Result
- 
- By using
-  * Node Table View
-
-![Imgur](https://i.imgur.com/jTMmf0t.png)
-
-![Imgur](https://i.imgur.com/Oo5U8Sm.png)
-
+    
