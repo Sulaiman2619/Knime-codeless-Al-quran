@@ -50,8 +50,42 @@ By Using :
 
 #### Result
 
+![Imgur](https://i.imgur.com/MkUiUty.png)
+
 ![Imgur](https://i.imgur.com/6CKLher.png)
 
+5.Remove Dashes from Text
+By using:
+* Node String Manipulation
+
+#### Result
+
+![Imgur](https://i.imgur.com/2QlYP2t.png)
+
+### Text Processessing
+
+![Imgur](https://i.imgur.com/9LcQiax.png)
+
+1.Convert String to Document where Title will be Column tran_id and Text will be column surah. And then delete the columns that are not in use.
+By using:
+* Node Strings To Document
+* Node Column Fillter
+
+![Imgur](https://i.imgur.com/XUB2Gd1.png)
+
+#### Result
+
+![Imgur](https://i.imgur.com/a3ndYxi.png)
+
+2.Remove special words such as , : _ ^ etc., change all letters to lowercase, remove unnecessary words. Frequently encountered words such as the,to,and etc.
+By using:
+* Node Punctuation Erasure
+* Case Converter
+* Stop Word Filter
+
+#### Result
+
+![Imgur](https://i.imgur.com/IC1a60A.png)
 
 
     
