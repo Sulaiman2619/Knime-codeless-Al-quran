@@ -1,12 +1,12 @@
 # Knime-codeless-Al-quran-Test 
 ##  Overview
-  This project is about the Qur'an. To compare the translators with what percentage are the same by using Surat Al -Fatihah to compare. A total of 14 translators were used and Dr. Mustafa Khattab was used as a comparison. And it's the first project to try text mining using knime.
+  This project is about the Qur'an. To compare the translators with what percentage are the same by using Surat Al-Fatihah to compare. A total of 14 translators were used and Dr. Mustafa Khattab was used as a comparison. And it's the first project to try text mining using knime.
 
 ## Method
 1.Import Excel file into knime using.
   * node Excel reader.
 
-![Imgur](https://i.imgur.com/OaxnTe3.png)
+![Imgur](https://i.imgur.com/ZE1tSAY.png)
 
 ### Result
 
@@ -43,7 +43,7 @@
   * Node N Chars Fillter
   * Node Bag Of Words
 
-![Imgur](https://i.imgur.com/BvVU2bp.png)
+![Imgur](https://i.imgur.com/7DTBK3Z.png)
 
 ### Result
 
@@ -56,7 +56,7 @@
 7.TF and IDF are multiplied together for more accurate results. by using
   * Node Math Formula
 
-![Imgur](https://i.imgur.com/1jjhGz1.png)
+![Imgur](https://i.imgur.com/VmgejFM.png)
 
 ### Result
 
@@ -75,14 +75,24 @@
   * Node Column Fillter
   * Node Row Fillter
  
- ![Imgur](https://i.imgur.com/zcwNvh4.png)
+ ![Imgur](https://i.imgur.com/afIPZ5g.png)
  
  
  10.A selected and prepared comparator is taken to test for similarity. by using
   * Node Similarity Search
   
- ![Imgur](https://i.imgur.com/fi50efX.png)
+ ![Imgur](https://i.imgur.com/afIPZ5g.png)
  
 ### Result
  
  ![Imgur](https://i.imgur.com/JBiO1Ja.png)
+ 
+ ## Complete Result
+ 
+ By using
+  * Node Table View
+
+![Imgur](https://i.imgur.com/jTMmf0t.png)
+
+![Imgur](https://i.imgur.com/Oo5U8Sm.png)
+
