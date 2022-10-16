@@ -115,6 +115,20 @@ By using:
 
 ![Imgur](https://i.imgur.com/rPO4fcL.png)
 
+### Model
+
+![Imgur](https://i.imgur.com/ZkRK3nB.png)
+
+1.Model to find the frequency using TF and IDF and use math formula to multiply the results of TF,IDF
+* Node TF
+* Node Column Rename
+* Node IDF
+* Node Math Formula
+
+#### Result
+
+![Imgur](https://i.imgur.com/r9zhGzB.png)
+
 ### Add Column And Sort Column By ID
 
 ![Imgur](https://i.imgur.com/itNmuwK.png)
