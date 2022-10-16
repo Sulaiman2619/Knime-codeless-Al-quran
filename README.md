@@ -138,7 +138,7 @@ By using:
 By using:
 * Node Similarity Search
 
-![Imgur](https://i.imgur.com/nhyV6nh.png)
+![Imgur](https://i.imgur.com/Gv20tvD.png)
 
 #### Result
 
