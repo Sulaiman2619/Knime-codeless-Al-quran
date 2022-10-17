@@ -156,6 +156,5 @@ By using:
 
 #### Result
 
-![Imgur](https://i.imgur.com/u2MXjN5.png)
-
+![Imgur](https://i.imgur.com/wrtDEs2.png)
 
