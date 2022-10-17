@@ -4,7 +4,7 @@
 
 ## Method
 ### Access Data
-1. Extract data from Excel.
+1. Import data from Excel.
 By using:
 * Node Excel Reader
 
